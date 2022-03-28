@@ -1,0 +1,11 @@
+<table>
+    <thead>
+        <th>Name</th> <th>Brand</th> <th>Model</th> <th>Price</th> <th>Availability</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let p of products">
+            <td>{{p.name}}</td>  <td>{{p.brand}}</td> <td>{{p.model}}</td> <td>{{p.price}}</td> <td>{{p.availability}}</td>
+            
+        </tr>
+    </tbody>
+</table>
